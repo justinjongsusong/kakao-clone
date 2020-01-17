@@ -9,6 +9,7 @@
   href="https://use.fontawesome.com/releases/v5.7.2/css/all.css"
   integrity="sha384-fnmOCqbTlWIlj8LyTjo7mOUStjsKC4pOpQbqyi7RrhN7udi9RwhKkMHpvLbHG9Sr"
   crossorigin="anonymous" />
+  <link rel="stylesheet" href="css/styles.css">
   <title>More</title>
 </head>
 <body>
@@ -34,8 +35,8 @@
     <main class="more">
         <header class="more__header">
             <div class="friends__friend friend friend--lg">
-                <div class="friend_column">
-                <img src="images/avatar.jpg" alt="" class="g-avatar">
+                <div class="friend__column">
+                <img src="images/avatar.jpg" alt="" class="g-avatar friend__avatar">
                 <div class="friend__content">
                     <span class="friend__name">Jongsu Song</span>
                     <span class="friend__status">jongsusong@gmail.com</span>
@@ -49,21 +50,21 @@
         </div>
         <ul class="more__btn-list">
             <li class="more__btn"><span class="more__btn-icon">
-                <i class="far fa-smile"></i>
+                <i class="far fa-smile fa-2x"></i>
             </span>
             <span class="more__btn-title">
                 Emoticons
             </span>
         </li>
         <li class="more__btn"><span class="more__btn-icon">
-            <i class="fas fa-brush"></i>
+            <i class="fas fa-brush fa-2x"></i>
         </span>
         <span class="more__btn-title">
             Themes
         </span>
     </li>
     <li class="more__btn"><span class="more__btn-icon">
-        <i class="fas fa-project-diagram"></i>
+        <i class="fas fa-project-diagram fa-2x"></i>
     </span>
     <span class="more__btn-title">
         Account
@@ -75,17 +76,19 @@
             <h5 class="more__title">Suggestions</h5>
             <ul class="more__suggestions-list">
                 <li class="more__suggestion suggestion">
-                    <i class="fas fa-store-alt fa-2x"></i>
+                    <span class="suggestion__icon"><i class="fas fa-store-alt fa-2x"></i></span>
+                    
 
                     <span class="suggestion__title">Kakao Story</span>
                 </li>
                 <li class="more__suggestion suggestion">
-                    <i class="fab fa-earlybirds fa-2x"></i>
+                    <span class="suggestion__icon"><i class="fab fa-earlybirds fa-2x"></i></span>
+                    
 
                     <span class="suggestion__title">Kakao friends</span>
                 </li>
                 <li class="more__suggestion suggestion">
-                    <i class="fab fa-angrycreative fa-2x"></i>
+                    <span class="suggestion__icon"><i class="fab fa-angrycreative fa-2x"></i></span>
 
                     <span class="suggestion__title">Friends Gem</span>
                 </li>
